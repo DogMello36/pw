@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GamePedia</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/icon2.ico" type="image/x-icon">
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      background-color: #f8f9fa;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GamePedia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="creditos.html">Créditos</a></li>
+                </ol>
+              </nav>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="container pt-5 mt-5">
+    <div class="row justify-content-center">
+
+      <div class="col-md-4 col-lg-4 d-flex justify-content-center pt-4">
+        <div class="card mb-4" style="width: 18rem;">
+          <img src="img/ds12.jpg" class="card-img-top" alt="Dark Souls 1">
+          <div class="card-body">
+            <h5 class="card-title">Dark Souls 1</h5>
+            <p class="card-text">Em Dark Souls 1, o jogador assume o papel de um "Morto-Vivo" em um mundo decadente chamado Lordran</p>
+            <a href="DS1.html" class="btn btn-primary">WIKI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4 d-flex justify-content-center pt-4">
+        <div class="card mb-4" style="width: 18rem;">
+          <img src="img/re 4.jpg" class="card-img-top" alt="Resident Evil 4">
+          <div class="card-body">
+            <h5 class="card-title">Resident Evil 4 REMAKE</h5>
+            <p class="card-text">Leon S. Kennedy é enviado para uma vila europeia para resgatar a filha do presidente dos EUA</p>
+            <a href="re4.html" class="btn btn-primary">WIKI</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <p>Feito por Matheus Mello e Luiz Felipe</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
